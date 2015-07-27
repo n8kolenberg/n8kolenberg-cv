@@ -1,0 +1,43 @@
+body {
+    font-family: 'Helvetica Neue';
+}
+
+h1, 
+h3,
+h4,
+p {
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+img {
+    width: 200px;
+    max-width: 400px;
+}
+
+
+.social li {
+    font-family: 'fontello';
+    font-size: 4rem;
+    color: white;
+    height: 100%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+
+
+span.icon-down-open-big {
+    margin-left: 45%;
+    margin-top: 100px;
+    position: relative;
+    top: 100px;
+    padding: 5px;
+    font-size: 40px;
+}
