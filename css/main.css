@@ -1,14 +1,36 @@
+/** {
+    border: 1px solid red;
+}*/
+
+
 body {
     font-family: 'Helvetica Neue';
 }
 
-h1, 
-h3,
-h4,
-p {
-    width: 80%;
+h1, h3, h4, p, ul {
+    width: 65%;
     margin: auto;
-    margin-top: 15px;
+    padding-top: 30px;
+    text-align: left;
+}
+
+.section > h1,
+.jobTitle,
+.resp-header {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.jobDescriptionContainer {
+    position: relative;
+    top: -100px;
+}
+
+
+.responsibilitiesContainer,
+.companyName {
+    display: none;
 }
 
 a {
@@ -17,8 +39,17 @@ a {
 
 
 img {
-    width: 200px;
-    max-width: 400px;
+    display: block;
+    position: relative;
+    top: -100px;
+    width: 300px;
+    margin: auto;
+ 
+}
+
+img.mobads {
+    position: relative;
+    top: -90px;
 }
 
 
@@ -32,12 +63,54 @@ img {
 }
 
 
+.skills ul > li > span {
+    font-family: 'fontello';
+} 
+
 
 span.icon-down-open-big {
     margin-left: 45%;
     margin-top: 100px;
     position: relative;
-    top: 100px;
+    top: 120px;
     padding: 5px;
     font-size: 40px;
+}
+
+
+
+
+/*Media Queries
+================*/
+@media (min-width: 500px) {
+  
+    h1, h3, h4, p, ul {
+        width: 80%;
+        margin: auto;
+        padding-top: 30px;
+        text-align: left;
+    }
+
+
+    .responsibilitiesContainer{
+    display: block;
+    }
+
+    .responsibilitiesContainer {
+        position: relative;
+        top: -100px;
+    }
+
+
+    img {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    
+    img.google2 {
+        top: -60px;
+    }
+
+
 }

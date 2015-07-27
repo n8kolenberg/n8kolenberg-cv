@@ -21,13 +21,6 @@ $('#fullpage').fullpage({
 
 
 
-// $('.thumbs').portfolio({
-// 	cols: 4,
-// 	transition: 'fadeIn'
-// }); //End portfolio
-
-
-
 
 
 });//End ready
